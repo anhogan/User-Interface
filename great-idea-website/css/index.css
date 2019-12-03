@@ -64,3 +64,127 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+  width: 90%;
+  margin: 1% 5% 0% 5%;
+}
+
+ul {
+  display: inline-block;
+  width: 83%;
+  list-style: none;
+  text-align: left;
+  margin-top: 3%;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+header {
+  width: 90%;
+  margin: 5%;
+}
+
+footer {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: 100px;
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+button {
+  display: inline-block;
+  width: 100%;
+  font-size: 24px;
+}
+
+hr {
+  width: 90%;
+}
+
+nav a {
+  width: 10%;
+  text-decoration: none;
+  color: lightslategray;
+  margin-right: 5%;
+}
+
+/* HOW TO GET IT CENTERED ON RIGHT? */
+.logo {
+  float: right; /* NEED ALT TAG HERE */
+  vertical-align: middle;
+  margin-top: 1%;
+}
+
+.button {
+  width: 20%;
+  margin: 0% 10% 0% 10%;
+}
+
+/* HOW TO GET IT CENTERED ON RIGHT? */
+.main-img {
+  display: inline-block;
+  margin-left: 15%;
+}
+
+.top-content {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.twoBlocks {
+  display: inline-block;
+  width: 47%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.middle-img {
+  width: 90%;
+  margin: 2% 5% 2% 5%;
+}
+
+.bottom-content {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.threeBlocks {
+  display: inline-block;
+  width: 31%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.contact {
+  display: inline-block;
+  width: 31%;
+  margin: 0% 1% 1% 1%;
+  padding: 1%;
+}
+
+.getInTouch {
+  padding-top: 5%;
+}
+
+.copyright {
+  display: inline-block;
+  width: 20%;
+  margin: 0% 42.5% 5% 42.5%;
+}
