@@ -106,6 +106,10 @@ h2 {
   font-size: 20px;
 }
 
+p {
+  font-family: 'Gupter', serif;
+}
+
 button {
   display: inline-block;
   width: 60%;
