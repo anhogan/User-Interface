@@ -75,7 +75,6 @@ ul {
   width: 83%;
   list-style: none;
   text-align: left;
-
 }
 
 li {
@@ -98,8 +97,10 @@ footer {
 h1 {
   font-size: 100px;
   display: inline-block;
-  width: 40%;
+  width: 100%;
   text-align: center;
+  vertical-align: bottom;
+  padding-bottom: 15%;
 }
 
 h2 {
@@ -110,6 +111,7 @@ button {
   display: inline-block;
   width: 100%;
   font-size: 24px;
+  vertical-align: top;
 }
 
 hr {
@@ -117,9 +119,11 @@ hr {
 }
 
 nav a {
+  display: inline-block;
   text-decoration: none;
   color: lightslategray;
   margin-right: 10%;
+  vertical-align: middle;
 }
 
 .navbar {
@@ -127,7 +131,6 @@ nav a {
   margin: 1%;
   padding: 1%;
   height: 90px;
-  background: lightskyblue;
 }
 
 .logo {
@@ -136,16 +139,17 @@ nav a {
   padding-top: 1%;
 }
 
-/* WAY TO NOT USE A DIV? */
-.button {
-  width: 20%;
-  margin: 0% 10% 0% 10%;
+.mainTitle {
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
 }
 
-/* HOW TO GET IT CENTERED ON RIGHT? Change width? Create divs for all three parts */
 .main-img {
   display: inline-block;
-  margin-left: 15%;
+  width: 100%;
+  vertical-align: bottom;
+  padding-bottom: 15%;
 }
 
 .top-content {
