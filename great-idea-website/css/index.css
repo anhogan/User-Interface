@@ -75,7 +75,7 @@ ul {
   width: 83%;
   list-style: none;
   text-align: left;
-  margin-top: 3%;
+
 }
 
 li {
@@ -117,17 +117,23 @@ hr {
 }
 
 nav a {
-  width: 10%;
   text-decoration: none;
   color: lightslategray;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
-/* HOW TO GET IT CENTERED ON RIGHT? Change width to 15%? */
+.navbar {
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+  height: 90px;
+  background: lightskyblue;
+}
+
 .logo {
-  float: right; /* NEED ALT TAG HERE */
-  vertical-align: middle;
-  margin-top: 1%;
+  display: inline-block;
+  width: 15%;
+  padding-top: 1%;
 }
 
 /* WAY TO NOT USE A DIV? */
@@ -136,7 +142,7 @@ nav a {
   margin: 0% 10% 0% 10%;
 }
 
-/* HOW TO GET IT CENTERED ON RIGHT? Change width? */
+/* HOW TO GET IT CENTERED ON RIGHT? Change width? Create divs for all three parts */
 .main-img {
   display: inline-block;
   margin-left: 15%;
@@ -180,8 +186,7 @@ nav a {
   padding: 1%;
 }
 
-/* HOW TO USE SPECIFICITY HERE? .contact p? */
-.getInTouch {
+.contact p {
   padding-top: 5%;
 }
 
