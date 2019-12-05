@@ -64,3 +64,141 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+  width: 90%;
+  margin: 1% 5% 0% 5%;
+}
+
+ul {
+  display: inline-block;
+  width: 83%;
+  list-style: none;
+  text-align: left;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+header {
+  width: 90%;
+  margin: 5%;
+}
+
+footer {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: 100px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  vertical-align: top;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Gupter', serif;
+}
+
+button {
+  display: inline-block;
+  width: 60%;
+  font-size: 24px;
+  margin-left: 18%;
+  vertical-align: bottom;
+}
+
+hr {
+  width: 90%;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: lightslategray;
+  margin-right: 10%;
+  vertical-align: middle;
+}
+
+.navbar {
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+  height: 90px;
+}
+
+.logo {
+  display: inline-block;
+  width: 15%;
+  padding-top: 1%;
+}
+
+.mainTitle {
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.main-img {
+  display: inline-block;
+  width: 100%;
+  padding-left: 20%;
+}
+
+.top-content {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.twoBlocks {
+  display: inline-block;
+  width: 47%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.middle-img {
+  width: 90%;
+  margin: 2% 5% 2% 5%;
+}
+
+.bottom-content {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.threeBlocks {
+  display: inline-block;
+  width: 31%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.contact {
+  display: inline-block;
+  width: 31%;
+  margin: 0% 1% 1% 1%;
+  padding: 1%;
+}
+
+.contact p {
+  padding-top: 5%;
+}
+
+.copyright {
+  display: inline-block;
+  width: 20%;
+  margin: 0% 42.5% 5% 42.5%;
+}
